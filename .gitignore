@@ -1,0 +1,6 @@
+sim.out
+*.vcd
+*.out
+SPEC.md
+EOF
+.DS_Store
