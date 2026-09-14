@@ -9,10 +9,13 @@ Logic, AND, OR, XOR, NOT
 ```make compile```
 
 Builds sim.out
+
 ```make test```
+
 Build and tests the ALU
 
 ```make clean```
+
 Cleans the waveform file
 
 This repo uses preprocessor directives to allow different bit number to be compiled each time.
