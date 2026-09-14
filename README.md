@@ -27,3 +27,7 @@ If N is not specified N=8 by default
 
 ## Testbench 
 Testbench currently only works with 8 bits, work in progress.
+
+## Waveform
+<img width="1140" height="196" alt="waveform" src="https://github.com/user-attachments/assets/38909532-0359-4fb5-9ca5-08a527caecfa" />
+
