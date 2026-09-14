@@ -10,14 +10,14 @@ Logic, AND, OR, XOR, NOT
 
 Builds sim.out
 ```make test```
-
 Build and tests the ALU
-```make clean```
 
+```make clean```
 Cleans the waveform file
 
 This repo uses preprocessor directives to allow different bit number to be compiled each time.
 Example: To build a 32 bit ALU
+
 ```make compile N=8```
 
 If N is not specified N=8 by default
