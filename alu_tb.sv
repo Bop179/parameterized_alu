@@ -1,5 +1,9 @@
+`ifndef N
+`define N 8
+`endif
+
 module alu_tb;
-    localparam N = 8;
+    localparam N = `N;
     logic [N-1:0] a, b, out;
     logic [3:0] opcode;
     logic overflow, zero, negative;
@@ -36,6 +40,9 @@ module alu_tb;
     endtask
 
     initial begin
+        $dumpfile("wave.vcd");
+        $dumpvars(0, alu_tb);
+
         // basic add
         a = 8'd5; b = 8'd3; opcode = 4'b1000; check("add", 8'd8, 0, 0, 0);
 
