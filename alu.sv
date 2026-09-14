@@ -1,4 +1,8 @@
-module alu #(parameter N = 8)(
+`ifndef N
+`define N 8
+`endif
+
+module alu #(parameter N = `N)(
     input logic [N-1:0] a, b,
     input logic [3:0] opcode,
     output logic overflow, zero, negative,
