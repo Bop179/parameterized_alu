@@ -4,6 +4,7 @@
 An ALU that does basic operations with bit number parameterized
 Arithmetic: Add, Subtract, Multiply Divide
 Logic, AND, OR, XOR, NOT
+The overflow flag currently doesn't work for multiply, work in progress
 
 ## How to compile
 ```make compile```
